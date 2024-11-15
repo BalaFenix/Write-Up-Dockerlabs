@@ -18,7 +18,7 @@ investigo y se trata de un código en Brainfuck, es un programa de programación
 ![alt text](img9.png)
 es así como accedo mediante conexión ssh usando como usuario agua y como password bebeaguaqueessano, comienzo a escalar privilegios
 ![alt text](img12.png)
-Descubro que tenemos privilegios de root desde Bettercap, abro Bettercap como root e introduzco el comando: !chmod +s /bin/bash para activar el bit SUID a bash
+Descubro que tenemos privilegios de root desde Bettercap, abro Bettercap como root e introduzco el comando: **!chmod +s /bin/bash** para activar el bit SUID a bash
 ![alt text](img13.png)
-Salgo de Bettercap e introduzco /bin/bash -p hago un whoami y ¡Ya somos root!
+Salgo de Bettercap e introduzco **/bin/bash -p** hago un whoami y ¡Ya somos root!
 ![alt text](img14.png)
