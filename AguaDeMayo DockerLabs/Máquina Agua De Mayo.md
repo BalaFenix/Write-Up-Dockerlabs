@@ -5,6 +5,7 @@
 Descomprimimos archivo y desplegamos máquina
 
 ![alt text](img1.png)
+
 Realizo un escaneo de puertos con Nmap y busco posibles vulnerabilidades
 
 ![alt text](img2.png)
