@@ -1,4 +1,4 @@
-**Write Up Maquina Amor de DockerLabs**
+<h1>Write Up Maquina Amor de DockerLabs</h1>
 
 Descargamos la máquina y descomprimimos con el comando **Unzip** desplegamos máquina con **sudo bash auto_deploy.sh amor.tar**
 
