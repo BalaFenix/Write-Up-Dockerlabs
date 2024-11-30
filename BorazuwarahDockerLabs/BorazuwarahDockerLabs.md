@@ -7,6 +7,7 @@ style="width:2.80833in;height:1.89167in" />
 style="width:4.69167in;height:3.76667in" />
 
 Comprobamos que hacemos ping
+
 <img src="assets/2z3w3woo.png"
 style="width:4.54028in;height:1.24156in" />
 
