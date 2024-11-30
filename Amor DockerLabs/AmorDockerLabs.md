@@ -10,4 +10,41 @@ Meto la IP en la URL y encuentro lo siguiente:
 
 ![alt text](assets/img2.png)
 
-Creo una lista con dos usuarios : Juan y Carlota y trabajo con el comando de hydra **hydra -L listamor.txt -P rockyou.txt ssh://172.17.0.2** para hacer fuerza bruta e intentar sacar las credenciales de alguno de los dos usuarios que aparecen en la página.
+En esta página aparecen dos nombres Juan, que ya no pertenece a la organización, y Carlota que pertenece al departamento de ciberseguridad (aunque no lo parezca por la clave que tiene...)
+Saco la password de Carlota mediante hydra y el diccionario RockYou.
+
+![alt text](assets/img3.png)
+
+Establezco conexión ssh y en el escritorio de carlota encuentro una imagen dentro de la carpeta vacaciones, la descargo mediante **scp**
+
+![alt text](assets/img4.png)
+
+Y pruebo con la herramienta exiftool para ver si encuentro algo interesante en los metadatos.
+
+![alt text](assets/img5.png)
+
+Utilizo la herramienta de esteganografía **stegseek** para ver lo que puede haber encapsulado en la imagen
+
+![alt text](assets/img6.png)
+
+Descubro el archivo secret.txt y lo que hay en el
+
+![alt text](assets/img7.png)
+
+Verifico con Hash-Identifier que se trata de un archivo que está en base64
+
+![alt text](assets/img8.png)
+
+Descodifico y encuentro lo siguiente
+
+![alt text](assets/img9.png)
+
+miro en /etc/passwd y encuentro un usuario que se llama oscar, utilizo el comando **su oscar** para cambiar de carlota a el y el comando **sudo -l** para ver como puedo elevar privilegios. Descubro que puedo hacerlo a través del binario Ruby.
+
+![alt text](assets/img10.png)
+
+Consulto en https://gtfobins.github.io/gtfobins/ruby/ como puedo elevar privilegios e introduzco el comando **sudo ruby -e 'exec "/bin/sh"'**
+
+![alt text](assets/img11.png)
+
+¡Ya somos root!
