@@ -32,9 +32,10 @@ firtshacking.
 
 <img src="assets/jro5dhaa.png" style="width:5.21667in;height:1.64167in" />
 <img src="assets/1wndajak.png" style="width:2.66667in;height:1.5in" />
-<img src="assets/rlycy1ls.png" style="width:6.8in;height:1.325in" />
 
 Busco la vulnerabilidad en Metasploit
+
+<img src="assets/rlycy1ls.png" style="width:6.8in;height:1.325in" />
 
 Selecciono el exploit y miro la información necesaria para explotarlo,
 me solicita el RHOSTS el RPORT no es necesario ya que ya viene
