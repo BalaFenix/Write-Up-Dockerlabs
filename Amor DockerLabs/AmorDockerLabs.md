@@ -39,7 +39,7 @@ Descodifico y encuentro lo siguiente
 
 ![alt text](assets/img9.png)
 
-miro en /etc/passwd y encuentro un usuario que se llama oscar, utilizo el comando **su oscar** para cambiar de carlota a el y el comando **sudo -l** para ver como puedo elevar privilegios. Descubro que puedo hacerlo a través del binario Ruby.
+miro en /etc/passwd y encuentro un usuario que se llama oscar, utilizo el comando **su oscar** para cambiar de carlota a el y la clave que hemos sacado del hash anterior. Utilizo el comando **sudo -l** para ver como puedo elevar privilegios. Descubro que puedo hacerlo a través del binario Ruby.
 
 ![alt text](assets/img10.png)
 
