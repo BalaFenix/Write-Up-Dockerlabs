@@ -1,10 +1,10 @@
-<img src="assets/2he4hate.png"
-style="width:4.69167in;height:3.76667in" />
-
 Como siempre para desplegar la máquina descomprimimos el archivo y lo ejecutamos con bash
 
 <img src="assets/ylaklng5.png"
 style="width:2.80833in;height:1.89167in" />
+
+<img src="assets/2he4hate.png"
+style="width:4.69167in;height:3.76667in" />
 
 <img src="assets/2z3w3woo.png"
 style="width:4.54028in;height:1.24156in" />
