@@ -14,11 +14,14 @@ Realizo escaneo de puertos y versiones con Nmap
 
 ![alt text](assets/image-2.png)
 
-Busco alguna vulnerabilidad con nmap --script vuln![alt text](assets/image-5.png)
+Busco alguna vulnerabilidad con **nmap --script vuln**
+
+![alt text](assets/image-5.png)
 
 Introduzco la IP de la máquina /backup como se me indicaba en el escaneo anterior y encuentro un archivo .txt
 
 ![alt text](assets/image-6.png)
+
 ![alt text](assets/image-7.png)
 
 Trabajo con hydra y el diccionario rockyou.txt para sacar la password del usuario russoski
