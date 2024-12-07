@@ -13,4 +13,4 @@ Me lleva a una página de Wordpress,en su código fuente encuentro lo siguiente:
 
 ![alt text](img3.png)
 
-Compruebo que amor es un usuario de ssh con lo cual voy a utilizar hydra y el diccionario rockyou para sacar las credenciales
+Voy a utilizar la herramienta **Wfuzz** para hacer fuzzing a la página
